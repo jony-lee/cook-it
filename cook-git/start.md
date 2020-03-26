@@ -10,5 +10,17 @@ TODO:这部分讲不太清楚，捂脸
 
 这里有一个linus开发git的历史过程，这里暂时先不涉及了。
 
-## 
+## git
+
+git add
+
+git commit
+
+git config
+
+git diff 
+
+git rebase 
+
+git tag
 
