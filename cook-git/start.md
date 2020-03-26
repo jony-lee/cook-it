@@ -11,16 +11,21 @@ TODO:这部分讲不太清楚，捂脸
 这里有一个linus开发git的历史过程，这里暂时先不涉及了。
 
 ## git
-
 git add
-
+git branch
 git commit
-
 git config
-
 git diff 
-
+git grep  //git grep \<name> 可以对当前项目内所有名为name的内容进行搜索
+git log //--stat 添加对文章的统计
 git rebase 
-
+git reset //默认--mix即删除暂存区的改动
+git stash //暂存内容，将工作区和暂存区内容都保存在一个特殊的地方
+git status
 git tag
+git reflog
+git merge
+git checkout
 
+
+![git-diff](./asserts/git-diff.png)
