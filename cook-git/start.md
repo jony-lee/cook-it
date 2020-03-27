@@ -26,6 +26,6 @@ git tag
 git reflog
 git merge
 git checkout
-
+git clean //  
 
 ![git-diff](./asserts/git-diff.png)
