@@ -1,0 +1,31 @@
+#+title: go语言速查笔记
+
+* 基础篇
+
+* 进阶篇
+** 将函数转换为接口技巧
+   https://geektutu.com/post/geecache-day2.html
+   定义一个函数类型 F，并且实现接口 A 的方法，然后在这个方法中调用自己。这是 Go 语言中将其他函数（参数返回值定义与 F 一致）转换为接口 A 的常用技巧。
+   #+BEGIN_SRC go
+     //接口A
+     // A Getter loads data for a key.
+     type Getter interface {
+       Get(key string) ([]byte, error)
+     }
+     //函数F
+     // A GetterFunc implements Getter with a function.
+     type GetterFunc func(key string) ([]byte, error)
+ 
+    //函数F实现接口A
+     // Get implements Getter interface function
+     func (f GetterFunc) Get(key string) ([]byte, error) {
+       return f(key)
+     }
+   #+END_SRC
+** 
+
+* 效率篇
+
+
+
+
