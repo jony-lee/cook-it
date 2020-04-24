@@ -1,0 +1,30 @@
+#+title: 创建型模式
+
+* Abstract Factory
+  
+* Builder
+  
+** 
+
+* Prototype
+
+* Singleton
+
+* 迷宫游戏
+
+
+  #+BEGIN_SRC go
+    package main
+
+    import "fmt"
+
+    const(
+      
+    )
+    func main() {
+      fmt.Println("hello")
+    }
+  #+END_SRC
+
+
+
